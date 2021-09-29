@@ -1,0 +1,12 @@
+<%-  include("partials/header") %>
+    
+    <% aticlesList.forEach(function(article){ %>
+        <h1> <%= article.title %> </h1>
+        <p> <%= article.content %> </p>
+
+
+    <% }); %>
+
+
+
+<%-  include("partials/footer") %>
